@@ -26,13 +26,13 @@ Outside of work I'm a gardener, a ghost story reader, a Medieval history enthusi
 
 ## A few things I've built
 
-### 🦊 Foxtail Technology
+### Foxtail Technology
 Founded 2009. FileMaker hosting and cloud infrastructure. Grew from a side project to a multi-data-center operation before merging with Proof+Geist in 2021.
 
-### 🐾 Kibble for Colonies
+### Kibble for Colonies
 Non-profit founded in 2024. Provides gift card funding to feral cat colony caretakers — built from personal experience and a genuine love of the mission. [Learn more](/projects/kibble-for-colonies)
 
-### 🎃 Wicked Weddings
+### Wicked Weddings
 Horror-themed wedding company. Officiated at iconic filming locations — ceremonies led by Michael Myers himself. Ran 2016–2017. [Learn more](/projects/wicked-weddings)
 
 ---
@@ -51,7 +51,7 @@ Horror-themed wedding company. Officiated at iconic filming locations — ceremo
 
 ## Outside the terminal
 
-🌱 Tending the garden &nbsp;·&nbsp; 👻 Reading ghost stories &nbsp;·&nbsp; ⚔️ Medieval history &nbsp;·&nbsp; 🏸 Badminton &nbsp;·&nbsp; 🎪 Trained circus performer &nbsp;·&nbsp; 🐱 Seven rescue cats
+Tending the garden &nbsp;·&nbsp; Reading ghost stories &nbsp;·&nbsp; Medieval history &nbsp;·&nbsp; Badminton &nbsp;·&nbsp; Trained circus performer &nbsp;·&nbsp; Seven rescue cats
 
 ---
 
