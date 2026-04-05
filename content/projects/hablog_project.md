@@ -1,7 +1,7 @@
 ---
 title: "HAB Log"
 description: "A private voice journal that transcribes everything you say and makes it searchable — so you can talk through your thoughts today and actually find them tomorrow."
-image: "SCREENSHOT_HERO.png"
+image: "https://cdn.datanut.net/assets/images/hablogs_record_main.png"
 demo: "https://www.hablogs.com"
 order: 1
 featured: true
