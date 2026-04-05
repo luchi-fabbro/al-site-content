@@ -5,7 +5,7 @@ date: "2026-04-01"
 tags:
   - meta
   - setup
-draft: false
+draft: true
 ---
 
 This is a sample post. If you can read this on your site, Markdown from GitHub is loading correctly.

@@ -6,7 +6,7 @@ tags:
   - cloudflare
   - architecture
 hero: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=600&fit=crop"
-draft: false
+draft: true
 ---
 
 Content lives in Git; the site renders it close to your readers. That keeps editing familiar and deployments simple.
