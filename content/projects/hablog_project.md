@@ -1,6 +1,6 @@
 ---
 title: "HAB Log"
-description: "A private voice journal that transcribes everything you say and makes it searchable — so you can talk through your thoughts today and actually find them tomorrow."
+description: "A private video/voice journal that transcribes everything you say and makes it searchable — so you can talk through your thoughts today and actually find them tomorrow."
 image: "https://cdn.datanut.net/assets/images/hablogs_record_main.png"
 demo: "https://www.hablogs.com"
 order: 1
@@ -21,7 +21,7 @@ draft: false
 
 Think out loud. Find it later.
 
-HAB Log is a private voice journal that transcribes everything you say and makes it searchable, so you can talk through your thoughts today and actually find them tomorrow.
+HAB Log is a private video/voice journal that transcribes everything you say and makes it searchable, so you can talk through your thoughts today and actually find them tomorrow.
 
 [Try it free](https://www.hablogs.com) · [Log in](https://www.hablogs.com/login)
 
