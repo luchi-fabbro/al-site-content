@@ -13,7 +13,7 @@ I've been interested in Medieval history for a long time, and at some point that
 
 Heraldry turns out to be a surprisingly good framework for that. It's a formal visual language with strict rules. Every element has a name, a placement, and a meaning. It rewards intentional design and punishes decoration for its own sake. That appealed to me. So I made one.
 
-![Luchi Coat of Arms](https://cdn.datanut.net/assets/images/luchi-cote-of-arms-transparent.png)
+![Luchi Coat of Arms](https://cdn.datanut.net/assets/images/luchi-cote-of-arms-transparent.png){width=400}
 
 ---
 
