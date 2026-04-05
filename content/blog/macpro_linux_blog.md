@@ -19,7 +19,7 @@ On March 30, 2026 — the same day Apple officially discontinued the Mac Pro lin
 
 ## The machine
 
-The 2013 Mac Pro (6,1) is one of those niche Macs that gets under your skin. Apple called it the Cylinder. Everyone else called it the trash can. Phil Schiller famously declared "Can't innovate no more, my ass" when he introduced it. The design was genuinely striking — a compact black cylinder with a unified thermal core, whisper quiet, and immediately iconic.
+The 2013 Mac Pro (6,1) is one of those niche Macs that gets under your skin. Apple called it the Cylinder. Everyone else called it the trash can. Phil Schiller famously declared "Can't innovate anymore, my ass" when he introduced it. The design was genuinely striking — a compact black cylinder with a unified thermal core, whisper quiet, and immediately iconic.
 
 It was also, as Apple eventually admitted in 2017, a design dead end. The thermal architecture that made it so elegant made meaningful GPU upgrades impossible. Apple stopped updating it in 2013 and didn't ship a replacement until 2019.
 
