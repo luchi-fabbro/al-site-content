@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![Angelo Luchi](avatar.png)
+![Angelo Luchi](https://cdn.datanut.net/assets/images/luchi-cote-of-arms.png)
 
 ## Angelo Luchi
 
