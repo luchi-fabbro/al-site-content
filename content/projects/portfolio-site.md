@@ -11,6 +11,7 @@ tech:
   - Cloudflare Workers
   - TypeScript
   - Tailwind CSS
+draft: true
 ---
 
 This project powers your personal homepage: **projects** and **blog** posts are Markdown files in a single public repository.

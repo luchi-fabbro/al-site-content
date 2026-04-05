@@ -8,6 +8,7 @@ featured: true
 tech:
   - Rust
   - Shell
+draft: true
 ---
 
 A placeholder project card to test the **grid layout**, **tech** pills, and **GitHub** button.

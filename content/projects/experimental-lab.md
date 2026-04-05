@@ -7,6 +7,7 @@ featured: false
 tech:
   - Python
   - WebGPU
+draft: true
 ---
 
 Not every project needs a hero image. This entry omits `image` so you can confirm the card still looks balanced.
