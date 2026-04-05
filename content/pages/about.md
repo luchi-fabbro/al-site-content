@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-![Angelo Luchi](https://cdn.datanut.net/assets/images/luchi-cote-of-arms.png)
-
 ## Angelo Luchi
 
 Director of Infrastructure Operations · [Proof+Geist](https://proofgeist.com) · Troy, NY
