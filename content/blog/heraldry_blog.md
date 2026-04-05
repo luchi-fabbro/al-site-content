@@ -1,7 +1,7 @@
 ---
 title: "Building a Coat of Arms: Heraldry as a Systems Diagram"
 description: "I designed a coat of arms. It turned out to be less about tradition and more about how I think."
-date: "2026-04-01"
+date: "2026-04-05"
 tags:
   - heraldry
   - personal
@@ -13,7 +13,7 @@ I've been interested in Medieval history for a long time, and at some point that
 
 Heraldry turns out to be a surprisingly good framework for that. It's a formal visual language with strict rules. Every element has a name, a placement, and a meaning. It rewards intentional design and punishes decoration for its own sake. That appealed to me. So I made one.
 
-![Luchi Coat of Arms](https://cdn.datanut.net/assets/images/luchi-cote-of-arms-transparent.png){width=400}
+![Luchi Coat of Arms](https://cdn.datanut.net/assets/images/luchi-cote-of-arms-transparent.png)
 
 ---
 
@@ -108,3 +108,26 @@ If someone in 1450 saw this, they'd read: *here stands a builder of systems, gui
 If someone today saw it, they'd probably read: *this person runs infrastructure and fixes what others break.*
 
 Both readings are correct. I'm fine with that.
+
+---
+
+## Further reading
+
+If this post sent you down a rabbit hole, these are the two books I'd recommend starting with. Both are by Stephen Slater and cover the history, language, and visual grammar of heraldry in serious depth.
+
+<div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1.5rem 0;">
+  <div style="flex: 1; min-width: 200px; max-width: 280px;">
+    <a href="https://www.amazon.com/Complete-Book-Heraldry-International-Encyclopedia/dp/1782144331?linkCode=ll2&tag=luchi00d8-20&linkId=3ddcd68b6c454fbc48dffad8c2843fea&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener">
+      <img src="https://images-na.ssl-images-amazon.com/images/P/1782144331.01.L.jpg" alt="The Complete Book of Heraldry by Stephen Slater" width="200" style="border-radius: 4px;" />
+      <p style="margin-top: 0.5rem; font-size: 0.9rem;"><strong>The Complete Book of Heraldry</strong><br>Stephen Slater — Updated 2021 Edition. The definitive reference: 256 pages, over 700 illustrations, covering history through modern application.</p>
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px; max-width: 280px;">
+    <a href="https://www.amazon.com/Illustrated-Book-Heraldry-International-Contemporary/dp/0754834603?linkCode=ll2&tag=luchi00d8-20&linkId=68136861a6977b63dcc251379f92cabe&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener">
+      <img src="https://images-na.ssl-images-amazon.com/images/P/0754834603.01.L.jpg" alt="The Illustrated Book of Heraldry by Stephen Slater" width="200" style="border-radius: 4px;" />
+      <p style="margin-top: 0.5rem; font-size: 0.9rem;"><strong>The Illustrated Book of Heraldry</strong><br>Stephen Slater — A more accessible entry point focused on international heraldry and its contemporary uses.</p>
+    </a>
+  </div>
+</div>
+
+*These are affiliate links. If you buy through them, I get a small cut at no extra cost to you.*
