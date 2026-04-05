@@ -5,6 +5,7 @@ image: "https://cdn.datanut.net/assets/images/hablogs_record_main.png"
 demo: "https://www.hablogs.com"
 order: 1
 featured: true
+date: "2026-04-01"
 tech:
   - Astro
   - Cloudflare Workers
