@@ -6,7 +6,7 @@ demo: ""
 order: 
 featured: false
 date: "2008-04-17"
-tags:
+tech:
   - Video
   - Performance
   - Acting

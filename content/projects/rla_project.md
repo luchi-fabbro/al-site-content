@@ -6,7 +6,7 @@ demo: "https://www.timdurfee.com/The-Rather-Large-Array"
 order:
 featured: false
 date: "2011-01-29"
-tags:
+tech:
   - MDP
   - Installation
   - Physical
