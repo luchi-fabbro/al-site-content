@@ -1,7 +1,7 @@
 ---
 title: "Partini"
 description: "A boutique event planning company co-founded in South Pasadena, CA, specializing in intimate celebrations, tiny weddings, and last-minute events for up to 40 guests."
-image: "https://cdn.datanut.net/assets/images/partini-main.png"
+image: "https://cdn.datanut.net/assets/images/img_01.png"
 demo: ""
 order:
 featured: false
