@@ -3,7 +3,7 @@ title: "FM Barcode API"
 description: "A free REST API for generating barcodes in 20+ formats, purpose-built for FileMaker's InsertFromURL function. Still running. Still free. Hundreds of millions of barcodes generated."
 image: "https://cdn.datanut.net/assets/images/barcode1.png"
 demo: ""
-order: 2
+order: 4
 featured: true
 date: "2013-02-01"
 tech:
