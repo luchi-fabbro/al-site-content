@@ -28,10 +28,10 @@ Outside of work I'm a gardener, a ghost story reader, a Medieval history enthusi
 Founded 2009. FileMaker hosting and cloud infrastructure. Grew from a side project to a multi-data-center operation before merging with Proof+Geist in 2021.
 
 ### Kibble for Colonies
-Non-profit founded in 2024. Provides gift card funding to feral cat colony caretakers — built from personal experience and a genuine love of the mission. [Learn more](/projects/kibble-for-colonies)
+Non-profit founded in 2024. Provides gift card funding to feral cat colony caretakers — built from personal experience and a genuine love of the mission. [Learn more](/projects/kibble-for-colonies_project)
 
 ### Wicked Weddings
-Horror-themed wedding company. Officiated at iconic filming locations — ceremonies led by Michael Myers himself. Ran 2016–2017. [Learn more](/projects/wicked-weddings)
+Horror-themed wedding company. Officiated at iconic filming locations — ceremonies led by Michael Myers himself. Ran 2016–2017. [Learn more](/projects/wicked-weddings_project)
 
 ---
 
