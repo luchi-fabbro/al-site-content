@@ -1,7 +1,7 @@
 ---
 title: "Wicked Weddings LA"
 description: "Horror-themed wedding ceremonies officiated by Michael Myers in the shadow of the house from John Carpenter's 1978 Halloween, in South Pasadena, CA."
-image: "https://cdn.datanut.net/assets/images/wicked/IMG_8647.jpeg"
+image: "https://cdn.datanut.net/assets/images/wicked/IMG_8672.jpeg"
 demo: ""
 order: 3
 featured: true
@@ -75,19 +75,19 @@ Two witnesses were required to sign the license alongside the ordained minister.
 
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0; flex-wrap: wrap;">
   <img src="https://cdn.datanut.net/assets/images/wicked/23280092_153046091974263_8580719181320683520_n.jpeg" alt="Wicked Weddings couple" style="border-radius: 4px; min-width: 200px; flex: 1; width: 48%; object-fit: cover;" />
-  <img src="https://cdn.datanut.net/assets/images/wicked/23279444_155772795164469_2072685379495919616_n.jpeg" alt="Wicked Weddings ceremony" style="border-radius: 4px; min-width: 200px; flex: 1; width: 48%; object-fit: cover;" />
 </div>
 
 ---
 
-## A real wedding: Caitlin and Jon
+## The first wedding on Halloween 10/31/2017
 
-One of the most memorable ceremonies was Caitlin and Jon, married on Friday the 13th of October, 2017. Their photos — shot on the porch of the Myers house itself, with Michael lurking behind them — are exactly what Wicked Weddings was built for. The timing was not an accident.
+One of the most memorable ceremonies was this couple, married on Halloween Day 31th of October, 2017. Their photos — shot around the Myers house itself, with Michael lurking behind them — are exactly what Wicked Weddings was built for. The timing was not an accident.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-  <img src="https://cdn.datanut.net/assets/images/wicked/23101883_2055611901339978_5502601624486412288_n.jpeg" alt="Caitlin and Jon — Friday the 13th" style="border-radius: 4px; width: 100%; object-fit: cover;" />
-  <img src="https://cdn.datanut.net/assets/images/wicked/23161608_1992355280983022_6308395204986535936_n.jpeg" alt="Caitlin and Jon with Michael Myers" style="border-radius: 4px; width: 100%; object-fit: cover;" />
-  <img src="https://cdn.datanut.net/assets/images/wicked/23279754_706872036181849_4694766568721088512_n.jpeg" alt="Caitlin and Jon first kiss" style="border-radius: 4px; width: 100%; object-fit: cover;" />
+  <img src="https://cdn.datanut.net/assets/images/wicked/23101883_2055611901339978_5502601624486412288_n.jpeg" alt="Wedding Halloween Day" style="border-radius: 4px; width: 100%; object-fit: cover;" />
+  <img src="https://cdn.datanut.net/assets/images/wicked/23161608_1992355280983022_6308395204986535936_n.jpeg" alt="Halloween Wedding with Michael Myers" style="border-radius: 4px; width: 100%; object-fit: cover;" />
+  <img src="https://cdn.datanut.net/assets/images/wicked/23279754_706872036181849_4694766568721088512_n.jpeg" alt="Halloween House first kiss" style="border-radius: 4px; width: 100%; object-fit: cover;" />
+  <img src="https://cdn.datanut.net/assets/images/wicked/23279444_155772795164469_2072685379495919616_n.jpeg" alt="Wicked Weddings ceremony" style="border-radius: 4px; width: 100%; object-fit: cover;" />
 </div>
 
 ---
