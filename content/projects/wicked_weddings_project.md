@@ -3,8 +3,8 @@ title: "Wicked Weddings LA"
 description: "Horror-themed wedding ceremonies officiated by Michael Myers in the shadow of the house from John Carpenter's 1978 Halloween, in South Pasadena, CA."
 image: "https://cdn.datanut.net/assets/images/wicked/IMG_8647.jpeg"
 demo: ""
-order:
-featured: false
+order: 3
+featured: true
 date: "2017-03-01"
 tags:
   - Events
