@@ -1,7 +1,7 @@
 ---
 title: "Remember VAX MAIL? I Built an Emulator."
 description: "A working browser-based emulator of the VAX MAIL system from DEC's VMS operating system — the email interface that defined university computing in the late 1980s and early 1990s."
-date: "2026-04-06"
+date: "2026-04-07"
 tags:
   - Development
   - Cloudflare
@@ -46,55 +46,69 @@ The whole interaction was text in, text out. No mouse. No icons. Just the VT100 
 
 ## The emulator
 
-The live emulator at [vax.aluchi.com](https://vax.aluchi.com) is a faithful recreation of that experience, built on a modern Cloudflare stack.
+The live emulator at [vax.aluchi.com](https://vax.aluchi.com) is a faithful recreation of that experience — and it's fully functional, not just a demo. Messages can be sent between registered users on the system, or to and from real internet email addresses via `@vaxmail.net`.
 
-**What works at the `MAIL>` prompt:**
+### Mail commands
 
-| Command | Action |
-| ------- | ------ |
-| `DIR` / `DIRECTORY` | List all messages |
-| `READ [n]` | Read a message (defaults to first unread) |
+| Command | Description |
+| ------- | ----------- |
+| `DIR` | List all messages with number, sender, date, subject |
+| `READ [n]` | Read a message (defaults to next unread) |
 | `SEND` | Compose a new message |
-| `REPLY` | Reply to the current message |
+| `REPLY` | Reply to current message (pre-fills To and subject) |
 | `DELETE [n]` | Delete a message |
-| `HELP` | Show available commands |
+| `SEARCH <term>` | Search subject, sender, and body |
+| `DUMP` | Generate a plain-text download of all messages |
+| `PURGE` | Delete all messages (requires confirmation) |
+| `WHOAMI` | Display your account details and VAX address |
+| `WHOIS` / `FINGER` | Look up another user |
+| `PASSWD` | Change your password |
+| `HELP` | List all commands |
 | `LOGOUT` | End the session |
 
-At the `Username:` prompt, type `NEW` to register an account. New accounts receive a welcome message from `SYSTEM`.
+**Getting started:** At the `Username:` prompt, type `NEW` to create an account. You'll be walked through choosing a username, full name, and password. New accounts receive a welcome message from `SYSTEM`. Once you're in, type `HELP` at the `MAIL>` prompt for a full list of commands, or just start with `DIR` to see your mailbox.
+
+### Internet mail
+
+Enabling external mail with `SET EXTERNAL ON` assigns you a real `<username>@vaxmail.net` address. Outbound messages to any address containing `@` route via Mandrill transactional email. Inbound mail sent to your VAX address is delivered to your mailbox via Cloudflare Email Routing. `REPLY` on an internet message routes back to the real sender. The directory listing marks inbound internet messages with `[EXT]` so you know where they came from.
 
 ---
 
 ## How it's built
 
-The frontend is [xterm.js](https://xtermjs.org/) — a full VT100/ANSI terminal emulator that runs in the browser over a WebSocket connection. It handles the character-by-character rendering, escape sequences, and cursor behavior that make the terminal feel authentic rather than simulated.
+The frontend is [xterm.js](https://xtermjs.org/) — a full VT100/ANSI terminal emulator that runs in the browser over a WebSocket connection. It handles character-by-character rendering, escape sequences, and cursor behavior.
 
-The backend runs entirely on Cloudflare's infrastructure. Each session is managed by a Durable Object, which maintains the terminal state — login status, current prompt, which menu the user is in — on a per-connection basis. Durable Objects are a near-perfect fit for this kind of stateful, persistent session pattern. User accounts and mailboxes live in a relational database, with session tokens and ephemeral state handled separately.
+The backend runs entirely on Cloudflare's serverless infrastructure:
 
-The trickiest parts were not the infrastructure — they were the small fiddly things that make the experience feel right. Line discipline: implementing backspace, line buffering, and cursor handling character by character. Full-screen composition for the `SEND` command, which needs to behave like a minimal text editor. VT100 escape sequence accuracy. And no-echo password input, which is a small detail that matters enormously to the feel.
+| Layer | Technology |
+| ----- | ---------- |
+| Runtime | Cloudflare Workers |
+| Session state | Durable Objects (hibernatable WebSockets) |
+| Database | Cloudflare D1 (SQLite) |
+| Rate limiting | Cloudflare KV |
+| Outbound email | Mandrill transactional email API |
+| Inbound email | Cloudflare Email Routing |
+| Email parsing | postal-mime |
 
-The session state machine looks roughly like this:
+Each browser session is a persistent Durable Object. The WebSocket routes to the same instance via a session ID, so refreshing the page restores the session without re-login.
 
-```
-login_username
-    ↓
-login_password  ──── wrong creds ──→ login_username
-    ↓
-mail_prompt  ←─────────────────────────────────────┐
-    ├─ DIR          → display, return               │
-    ├─ READ n       → display, return               │
-    ├─ DELETE n     → delete, return                │
-    ├─ REPLY        → compose (pre-filled To:)      │
-    ├─ SEND         → compose_to                    │
-    │                    ↓                          │
-    │               compose_subject                 │
-    │                    ↓                          │
-    │               compose_body ──Ctrl+Z──────────→┘
-    │                            ──Ctrl+C──────────→┘
-    └─ LOGOUT       → session cleared, WS closed
+### Security
 
-NEW at login_username:
-    register_username → register_password → register_verify → mail_prompt
-```
+Passwords are hashed with a strong KDF, compared using constant-time comparison to prevent timing attacks, and accounts lock after repeated failed attempts. Connections are throttled per IP.
+
+Message bodies are encrypted at rest. The encryption model is designed so that changing your password requires no message re-encryption regardless of mailbox size, and session keys are never written to persistent storage.
+
+### The hard parts
+
+The infrastructure was straightforward. The fiddly things were:
+
+Line discipline — implementing backspace, line buffering, and cursor handling character by character, including backspace that works across line boundaries and restores the previous line for editing.
+
+Full-screen composition — the `SEND` command needs a minimal text editor experience, with `Ctrl+Z` to send and `Ctrl+C` to cancel, that feels authentic rather than bolted on.
+
+VT100 accuracy — getting the escape sequences right so the terminal behaves like the real thing, not a rough approximation of it.
+
+No-echo password input — a small detail that matters enormously to the feel. The cursor doesn't move while you type your password. It's correct because it has to be.
 
 ---
 
